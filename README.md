@@ -13,39 +13,39 @@ Comments in Python are marked by a # sign (for single-line comments) or three ma
 
 Edit README.md to answer the following questions:
 
-- Open main01.py. Before running it, what do you expect this program to do?
-  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened.
-  - What do you think the program did with what you typed in answer to the question?
-- Open main02.py. Before running it, describe how this is different than main01.py.
-  - What do you think the color = input() will do?
-  - Run the program in the terminal and answer the question. Did the program do what you expected?
-- Open main03.py. Before running it, describe how this is different than main02.py.
-  - What is happening on lines 9–12?
-  - Why are lines 10 and 12 indented?
-  - Run the program and answer the question. What happens if you don’t capitalize Red?
-  - What does this tell you about "color"?
-- Open main04.py. Before running it, describe how this is different than main03.py.
-  - What problem is this trying to solve?
-  - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)?
-- Open main05.py. What do you expect line 9 to do?
-  - What problem is it trying to solve?
-  - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)?
- - Open main06.py. How is line 9 different than in main05.py?
-   - What would you guess .strip() is doing?
-   - Run the program and answer the question. Is there another way of writing “red” that will break this logic?
- - Open main07.py. Before running this program, how do you expect this to be different than main06.py?
-   - What is happening on line 12?
-   - Run the program and answer the question.
- - Open main08.py. What is the purpose of line 9?
-   - Why are lines 10–17 indented?
-   - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)?
+- Open main01.py. Before running it, what do you expect this program to do? I expect it to ask me what my favorite color is. 
+  - Now right click on the main1.py window and select “Run Python File in Terminal”. Click in the bottom panel, and answer the question. Describe what happened. I put "red" and nothing happened after.
+  - What do you think the program did with what you typed in answer to the question? I have no idea to be honest with you. Maybe took my favorite color and stored it as data 
+- Open main02.py. Before running it, describe how this is different than main01.py. In main02.py the color is set equal to the input of what color i choose.
+  - What do you think the color = input() will do? print the color i chose. 
+  - Run the program in the terminal and answer the question. Did the program do what you expected? Yes, it printed the color i chose. 
+- Open main03.py. Before running it, describe how this is different than main02.py. In main03.py it is going to ask my favorite color and if it matches the one put un then it will be right. If i dont put "red" then it will give me the wrong answer. 
+  - What is happening on lines 9–12? It is saying the answer to the question is "red".
+  - Why are lines 10 and 12 indented? So they are in the same string. 
+  - Run the program and answer the question. What happens if you don’t capitalize Red? It is wrong. 
+  - What does this tell you about "color"? It needs to have more than one input than just "Red".
+- Open main04.py. Before running it, describe how this is different than main03.py. In main04.py the answer can still be right if it is lowercased "red". 
+  - What problem is this trying to solve? The capitalization error. 
+  - Run the program and answer the question. What happens if you use some other capitalization scheme (i.e., “RED” or “reD“)? It is incorrect. 
+- Open main05.py. What do you expect line 9 to do? "red" can only be lowercase.
+  - What problem is it trying to solve? What my favorite color is. 
+  - Run the program and answer the question. What happens if you add spaces before or after the word (i.e., “ RED “ or “ red”)? It is incorrect. 
+ - Open main06.py. How is line 9 different than in main05.py? the function ".strip" was added. 
+   - What would you guess .strip() is doing? accounting for the spaces before or after the color. 
+   - Run the program and answer the question. Is there another way of writing “red” that will break this logic? Putting spaces inbetween every character. 
+ - Open main07.py. Before running this program, how do you expect this to be different than main06.py? They are adding another color into the mix so now you my choose "red" or "pink". 
+   - What is happening on line 12? "pink" is be adding to the mix. 
+   - Run the program and answer the question. If you guessed pink it would tell you how close you are, but if you guess red after there is an error.
+ - Open main08.py. What is the purpose of line 9? The favorite color is red still, but there are more variables on how to get to it. 
+   - Why are lines 10–17 indented? Because they are in the same string. 
+   - Run the program. What would happen if line 10 were moved before line 9 (and no longer indented)? It would not count in the string and there would be a syntax error. If you guess pink it says "Close!" repeatdely. 
    - Make that change and run the program again. (To end any Python program, you can type ctrl-c)
- - Open main09.py. What is happening on line 13?
-   - What is the purpose of “count”?
-   - What is happening on line 22?
+ - Open main09.py. What is happening on line 13? It is counting how many tims you guess. 
+   - What is the purpose of “count”? To keep track of what we do in the Python. 
+   - What is happening on line 22? There is no line 22. 
    - Run the program.
  - *Extra credit:* open main10.py. Add a comment to each line describing what it is doing (a comment follows a pound sign [#]).
- - *Extra credit:* open main11.py. What is happening on lines 6-11?
+ - *Extra credit:* open main11.py. What is happening on lines 6-11? This gives you the answer and if wrong will tell you what you guessed as well as how many times youve guessed. 
   
 Commit your changes and push them back to the repository.
  
